@@ -12,6 +12,7 @@ spec:
         periodSeconds: 10
         failureThreshold: 3
         initialDelaySeconds: 60
+    template:
         spec:
             containers:
                 - name: UE-test
