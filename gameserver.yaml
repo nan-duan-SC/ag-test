@@ -15,5 +15,5 @@ spec:
     template:
         spec:
             containers:
-                - name: UE-test
+                - name: uetest
                   image: nanduansc/ag-test
